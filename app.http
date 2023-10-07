@@ -1,0 +1,22 @@
+
+##############
+POST http://localhost:3000/register/
+Content-Type:application/json
+
+{
+  "username":"sravanthi",
+  "password":"sravanthi123",
+  "name":"sravanthi",
+  "gender":"female"
+}
+###########
+
+POST http://localhost:3000/login/
+Content-Type:application/json
+
+{
+  "username":"sravanthi",
+  "password":"sravanthi123"
+}
+###########
+
